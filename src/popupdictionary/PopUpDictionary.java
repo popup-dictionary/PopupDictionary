@@ -71,7 +71,7 @@ public class PopUpDictionary extends Component implements Printable, Accessible 
                     Label l1, l2;
                     l1=new Label("Word Definition");
                     l1.setBounds(50,150, 100,150);
-                    l1.setSize(300, 50);            // Tried to add size to the label @Usama
+                    l1.setSize(300, 50);// Tried to add size to the label @Usama
                     /*l2=new Label("Translate:");
                     l2.setBounds(50,200, 60,30);*/
                     f.add(l1); //f.add(l2);
@@ -184,7 +184,10 @@ public class PopUpDictionary extends Component implements Printable, Accessible 
                             enteredWord=tf.getText();
                             def=dic.wordsearch(enteredWord);
 
+                           
                             l1.setText(def);
+                            
+                            
                         }
                     });
 
